@@ -1,0 +1,20 @@
+{
+  "service": "analytics-worker",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage_mb": 256,
+    "active_threads": 10,
+    "processed_events": 12345,
+    "error_count": 0
+  },
+  "dependencies": {
+    "database": "online",
+    "message_queue": "connected",
+    "cache": "healthy"
+  },
+  "alerts": []
+}
